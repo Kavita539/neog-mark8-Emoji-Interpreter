@@ -1,0 +1,58 @@
+@import url("https://fonts.googleapis.com/css2?family=Courgette&family=Lato:ital,wght@0,400;1,100&display=swap");
+
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+:root {
+  --primary-color: #b45309;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: "Courgette", cursive;
+  color: #333333;
+  background-color: #fef3c7;
+}
+
+nav {
+  text-align: center;
+  background-color: var(--primary-color);
+  padding: 1rem;
+  border-radius: 0 0 0rem 2rem;
+}
+
+.para {
+  max-width: 400px;
+  padding: 1.5rem;
+  font-size: 1.2rem;
+  margin: auto auto 0;
+}
+
+input {
+  padding: 1rem;
+  width: 80%;
+  border: 2px solid var(--primary-color);
+  border-radius: 1rem;
+  margin: auto;
+}
+
+.meaning {
+  text-align: center;
+  padding: 2rem;
+  font-family: inherit;
+  font-weight: bold;
+}
+
+p {
+  padding: 2rem;
+  text-align: center;
+  font-family: "Courgette", cursive;
+  font-size: 1.7rem;
+  margin: 0 auto 10px;
+}
